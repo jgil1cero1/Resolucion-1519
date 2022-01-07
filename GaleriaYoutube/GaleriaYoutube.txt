@@ -1,0 +1,17 @@
+<link href="https://fonts.googleapis.com/css?family=Oswald:400,300,700" rel="stylesheet" type="text/css" />
+<link href="/SiteAssets/V2/css/GaleriaYoutube.css" rel="stylesheet" type="text/css" />
+
+<div id="video-gallery">                                          
+</div>
+
+<script type="text/javascript" src="/js/1291523190-jpaginateVideos.js"></script>
+<script src="/SiteAssets/V2/js/GaleriaYoutube.js"></script>
+<script src="/js/dist/lightgallery.js"></script>
+<script src="/js/dist/lg-fullscreen.js"></script>
+<script src="/js/dist/lg-thumbnail.js"></script>
+<script src="/js/dist/lg-video.js"></script>
+<script src="/js/dist/lg-autoplay.js"></script>
+<script src="/js/dist/lg-zoom.js"></script>
+<script src="/js/dist/lg-hash.js"></script>
+<script src="/js/dist/lg-pager.js"></script>
+<script src="/js/lib/jquery.mousewheel.min.js"></script>

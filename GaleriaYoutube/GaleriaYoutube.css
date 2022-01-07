@@ -1,0 +1,47 @@
+.lg-video-play
+{
+
+}
+.gal
+{
+ width: 300px;
+    height: 260px;
+}
+.lg-holder
+{
+margin-bottom:20px !important;
+}
+
+#lg-zoom-in, #lg-zoom-out, #lg-download
+{
+display:none !important;
+}
+
+.pagination {list-style:none; margin:0px; padding:0px; margin-top:30px;
+
+}  
+.pagination li{float:left; margin:3px;}  
+
+.pagination .active{
+    border: none;
+    background: #41a9a7;
+    color: white !important;
+display: inline-block;
+    padding: 5px 12px;
+    margin-right: 4px;
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: none;
+	border-radius: 3px;
+}
+.goto, .goto_next, .inactive, .goto_previous{
+    display: inline-block;
+    padding: 5px 12px;
+    margin-right: 4px;
+    border-radius: 3px;
+    background: #f3f3f3;
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #dba71d !important;
+}

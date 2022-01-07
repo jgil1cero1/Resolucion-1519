@@ -1,0 +1,16 @@
+
+#myBtn {
+    display: block;
+    position: fixed;
+    z-index: 1000;
+    bottom: 50px;
+    right: 30px;
+    font-size: 25px;
+    background: #8c2226;
+    border-radius: 45px !important;
+    text-align: center;
+    border: 3px solid hsla(0, 0%, 78%, 0.3);
+    padding: 0px;
+    height: 45px;
+    width: 45px;
+}

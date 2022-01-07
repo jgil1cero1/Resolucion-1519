@@ -1,0 +1,14 @@
+#pauseButton{
+	background-color: #8c2226;
+color: white;
+display: inline-block;
+box-sizing: border-box;
+border-radius: 0%;
+}
+#playButton{
+	background-color: #487a3b;
+color: white;
+display: inline-block;
+box-sizing: border-box;
+border-radius: 0%;
+}
