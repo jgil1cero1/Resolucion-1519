@@ -6,10 +6,15 @@ ICONOS BAR FLOTANTES
 	
     position: fixed;
     left: -36px;
-    top: 480px;
+    top: 296px;
     z-index: 9999;
     }
-    
+        
+    .altoContraste {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    background-color: #fff;
+}
     
      .btn-accesibilidad ul {
             list-style: none;
@@ -18,7 +23,7 @@ ICONOS BAR FLOTANTES
         border-radius: 8px 8px 0px 0px;
         -moz-border-radius: 35px 40px 0px 0px;
        }
-       .a2{
+       .a4{
         border-radius:0px 0px 8px  8px;
         -moz-border-radius: 0px 0px 40px 35px;
        }
@@ -27,11 +32,11 @@ ICONOS BAR FLOTANTES
         /*display: inline-block;*/
         color:#fff !important;         
         background: #00b300;         
-        padding: 10px;         
+        padding: 11px;         
         text-decoration: none;
         -webkit-transition:all 100ms ease;
         -o-transition:all 100ms ease;        
-        transition:all 100ms ease; /* Establecemos una transiciÃ³n a todas las propiedades */
+        transition:all 100ms ease; /* Establecemos una transiciÃƒÂ³n a todas las propiedades */
      }
      .btn-accesibilidad ul li a:hover {
         background:#00b300;
@@ -43,6 +48,17 @@ ICONOS BAR FLOTANTES
         position:relative;
         
     }
+     .textos-bar {
+        position:relative;
+        
+    }
+.textos-bar:after {
+        padding: 0 0 0 10px;
+        width: 270px;
+     
+    
+    }
+
     .textos-social-bar:after {
         padding: 0 0 0 10px;
         width: 270px;
@@ -72,6 +88,12 @@ ICONOS BAR FLOTANTES
         content: " Centro de relevo";
     
     }
+     .btn-accesibilidad ul li:hover:nth-child(4) .textos-bar:after {
+        /*position: absolute;*/
+        content: "Cambiar Contraste";
+    
+    }
+
     
      .btn-accesibilidad  img {
         /*display: flex;*/
