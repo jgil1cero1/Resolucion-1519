@@ -1,16 +1,131 @@
 
-#myBtn {
-    display: block;
-    position: fixed;
-    z-index: 1000;
-    bottom: 50px;
-    right: 30px;
-    font-size: 25px;
-    background: #8c2226;
-    border-radius: 45px !important;
-    text-align: center;
-    border: 3px solid hsla(0, 0%, 78%, 0.3);
-    padding: 0px;
-    height: 45px;
-    width: 45px;
+/************************************
+	 ESTILOS CDN MIN .GOV
+************************************/
+.scroll-to-top{
+    opacity:0;
+    position:fixed;
+    bottom:1rem;
+    right:-144px;
+    border-top-left-radius:1rem;
+    border-bottom-left-radius:1rem;
+    overflow:hidden;
+    border:rgba(75,75,75,0.2) 1px solid;
+    box-shadow:var(--sombras);
+    z-index:110;
+    transition:0.6s all
+}
+.scroll-to-top button{
+    border:unset;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:0.5rem;
+    background:white;
+    cursor:pointer
+}
+.scroll-to-top button .btn-svg-up-hover{
+    font-size: 1.5rem !important;
+    line-height: 28px;
+    color: white !important;
+    border: solid 1px;
+    background: var(--color-botones);
+    margin-top: 2px;
+    }
+.scroll-to-top button .back-to-top-button{
+    padding:0.4rem !important
+}
+.scroll-to-top button .label-button-star-up{
+    font-size:1rem !important;
+    padding:0 0.6rem;
+    width:144px
+}
+.scroll-to-top:hover{
+    right:-0.1rem !important
+}
+.show-scrollTop{
+    opacity:1;
+    transition:0.6s all;
+    box-shadow: var(--sombras);
+}
+.scroll-dark-govco{
+    overflow-y:scroll;
+    scrollbar-face-color:#3772FF !important;
+    scrollbar-track-color:#fff !important;
+    scrollbar-arrow-color:#fff !important;
+    scrollbar-highlight-color:#3772FF !important;
+    scrollbar-3dlight-color:#3772FF !important;
+    scrollbar-darkshadow-color:#3772FF !important;
+    scrollbar-color:#3772FF #fff !important;
+    scrollbar-width:thin !important
+}
+.scroll-dark-govco::-webkit-scrollbar{
+    width:0.7em;
+    height:0.7em
+}
+.scroll-dark-govco::-webkit-scrollbar-thumb{
+    border-radius:10px;
+    background:#3772FF;
+    box-shadow:var(--sombras);
+    }
+.scroll-dark-govco::-webkit-scrollbar-track{
+    border-radius:10px;
+    background:#fff
+}
+.scroll-dark-govco::-webkit-scrollbar-thumb:hover{
+    background:#3772FF
+}
+.scroll-light-govco{
+    scrollbar-face-color:#004884 !important;
+    scrollbar-track-color:#E6EFFD !important;
+    scrollbar-arrow-color:#E6EFFD !important;
+    scrollbar-highlight-color:#E6EFFD !important;
+    scrollbar-3dlight-color:#E6EFFD !important;
+    scrollbar-darkshadow-color:#E6EFFD !important;
+    scrollbar-color:#004884 #E6EFFD !important;
+    scrollbar-width:thin !important;
+    overflow-y:scroll
+}
+.scroll-light-govco::-webkit-scrollbar{
+    width:0.7em;
+    padding:5px
+}
+.scroll-light-govco::-webkit-scrollbar-thumb{
+    border-radius:10px;
+    background:#004884;
+    box-shadow:var(--sombras)
+}
+.scroll-light-govco::-webkit-scrollbar-track{
+    border-radius:10px;
+    background:#E6EFFD
+}
+.scroll-light-govco::-webkit-scrollbar-thumb:hover{
+    background:#004884
+}
+
+body.all .scroll-to-top button{
+    background:black
+}
+body.all .scroll-to-top button .btn-svg-up-hover,body.all .scroll-to-top button span{
+    color:#004884 !important
+}
+.block--gov-accessibility .block-options a:hover label{
+    cursor:pointer;
+    display:inline-block !important;
+    margin-bottom:0;
+    margin-left:0;
+    font-family:"Work Sans", sans-serif;
+    font-size:0.8rem
+}
+.btn-top-up{
+	border: solid 1px white;
+    width: 31px;
+    height: 31px;
+    background: var(--color-fondo);
+    color: white !important;
+    margin-left: 4px;
+    border-radius: 8px;
+}
+.btn-text-top-up{
+	font-size: 15px !important;	
 }
