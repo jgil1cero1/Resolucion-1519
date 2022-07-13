@@ -2,13 +2,13 @@ jQuery(function($){ initTooltips(); $("body").on("subform-row-add", initTooltips
 window.soundManager.url = '/Style Library/screenreaderV2/js/soundmanager2.js';
 window.soundManager.debugMode = false;  
 window.soundManager.defaultOptions.volume = 80;
-var screenReaderConfigOptions = {	baseURI: 'https://www.fusagasuga-cundinamarca.gov.co/',
+var screenReaderConfigOptions = {	baseURI: 'http://192.168.20.166:9930/',
 	token: '077fe86b87a1a25cba7eaec8005a7472',
 	langCode: 'es-ES',
 	chunkLength: 200,
 	screenReaderVolume: '80',
 	screenReaderVoiceSpeed: 'normal',
-	position: 'bottomright',
+	position: 'bottomleft',
 	scrolling: 'fixed',
 	targetAppendto: 'html',
 	targetAppendMode: 'bottom',
@@ -30,7 +30,7 @@ var screenReaderConfigOptions = {	baseURI: 'https://www.fusagasuga-cundinamarca.
 	readImagesHovering: 0,
 	mainpageSelector: 'body',
 	showlabel: 1,
-	labeltext: 'Accesi bilidad',
+	labeltext: 'Accesibilidad',
 	screenreaderIcon: 'wheelchair',
 	screenreader: 1,
 	highcontrast: 0,

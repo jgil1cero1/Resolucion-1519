@@ -33,15 +33,15 @@ html.scr_highcontrast {
 }
 
 div#accessibility-links span {
-    color: #111;
+    color: #e5d8d8;
     font-size: 11px;
     font-weight: bold;
     line-height: 12px;
     height: 20px;
     float: left;
     cursor: auto;
-    padding-left: 32px;
-    margin-top: 6px
+    padding-left: 49px;
+    margin-top: 13px
 }
 
 div#accessibility-links span.fr_label.startapp {
@@ -102,7 +102,7 @@ div.scbasebin.screenreader.text.scr_nolabel {
 }
 
 div.scbasebin.screenreader.text.scr_wheelchair {
-    background: url('/Style Library/screenreaderV2/images/screen-reader-symbols_disabled-wheelchair-symbol.png') no-repeat 4px 2px;
+    background: url('/Style Library/screenreaderV2/images/screen-reader-symbols_disabled-wheelchair-symbol.png') no-repeat 3px 1px;
     background-size: contain;
 }
 
@@ -345,7 +345,7 @@ div#sm2-container {
 
 div.volume_step {
     width: 5px;
-    border: 1px solid #727272;
+    border: 1px solid #0b0a0a;
     position: absolute;
     bottom: 10px;
     margin-left: 2px;
@@ -353,7 +353,7 @@ div.volume_step {
 }
 
 div.volume_step.active {
-    background-color: #00437a
+    background-color: #d7e1e9
 }
 
 #volume_step1 {
@@ -558,8 +558,8 @@ body[style*=brightness]~div#accessibility-links button#fr_screenreader_highcontr
     text-decoration: underline
 }
 
-#accessibility-links #text_plugin{width:100px;}
-div#accessibility-links,div#accessibility-links.bottomleft,div#accessibility-links.topleft,div#accessibility-links.bottomright,div#accessibility-links.topright,div#tts_message,div#accessibility-links div#msgtext,div#accessibility-links div#playicon{border-radius:20px;}
+#accessibility-links #text_plugin{width:146px;}
+div#accessibility-links,div#accessibility-links.bottomleft,div#accessibility-links.topleft,div#accessibility-links.bottomright,div#accessibility-links.topright,div#tts_message,div#accessibility-links div#msgtext,div#accessibility-links div#playicon{border-radius:8px;}
 
 @media(max-width:360px) {
     div.scbasebin.speaker {
@@ -571,4 +571,10 @@ div#accessibility-links,div#accessibility-links.bottomleft,div#accessibility-lin
     span.screenreader_embed_stop_button {
         width: 30px
     }
+}
+
+div#accessibility-links{
+	background-color:#2255a4 !important;
+    box-shadow: 0px 1px 14px -1px;
+    margin-bottom: 4px;
 }
